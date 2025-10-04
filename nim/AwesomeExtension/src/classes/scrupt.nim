@@ -8,7 +8,7 @@ macro GodScript*(i)=quote do:
 GodScript character
 
 var t:array[100000000,int]
-proc numu*(self:aracter):int{.gdsync.}=
+proc numu*(self:character):int{.gdsync.}=
     for i in 0..99999999:
       t[i]=i*i
       
