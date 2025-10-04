@@ -1,0 +1,32 @@
+[configuration]
+
+entry_symbol = "init_library"
+compatibility_minimum = 4.5
+reloadable = true
+
+[libraries]
+
+windows.debug.x86_32 = "res://./nim\\AwesomeExtension/lib/AwesomeExtension.windows.debug.x86_32.dll"
+windows.release.x86_32 = "res://./nim\\AwesomeExtension/lib/AwesomeExtension.windows.release.x86_32.dll"
+windows.debug.x86_64 = "res://./nim\\AwesomeExtension/lib/AwesomeExtension.windows.debug.x86_64.dll"
+windows.release.x86_64 = "res://./nim\\AwesomeExtension/lib/AwesomeExtension.windows.release.x86_64.dll"
+windows.debug.arm64 = "res://./nim\\AwesomeExtension/lib/AwesomeExtension.windows.debug.arm64.dll"
+windows.release.arm64 = "res://./nim\\AwesomeExtension/lib/AwesomeExtension.windows.release.arm64.dll"
+linux.debug.x86_32 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.linux.debug.x86_32.so"
+linux.release.x86_32 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.linux.release.x86_32.so"
+linux.debug.x86_64 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.linux.debug.x86_64.so"
+linux.release.x86_64 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.linux.release.x86_64.so"
+linux.debug.arm32 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.linux.debug.arm32.so"
+linux.release.arm32 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.linux.release.arm32.so"
+linux.debug.arm64 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.linux.debug.arm64.so"
+linux.release.arm64 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.linux.release.arm64.so"
+linux.debug.rv64 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.linux.debug.rv64.so"
+linux.release.rv64 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.linux.release.rv64.so"
+macos.debug = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.macos.debug.dylib"
+macos.release = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.macos.release.dylib"
+web.debug.wasm32 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.web.debug.wasm32.wasm"
+web.release.wasm32 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.web.release.wasm32.wasm"
+android.debug.x86_64 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.android.debug.x86_64.so"
+android.release.x86_64 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.android.release.x86_64.so"
+android.debug.arm64 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.android.debug.arm64.so"
+android.release.arm64 = "res://./nim\\AwesomeExtension/lib/libAwesomeExtension.android.release.arm64.so"
